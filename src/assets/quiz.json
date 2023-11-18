@@ -1,0 +1,215 @@
+{
+    "quiz": [
+      {
+        "pergunta": "Qual é o principal objetivo do Angular?",
+        "opcoes": [
+          "Desenvolvimento de aplicativos móveis",
+          "Desenvolvimento de jogos",
+          "Desenvolvimento de aplicações web",
+          "Desenvolvimento de inteligência artificial"
+        ],
+        "resposta": "Desenvolvimento de aplicações web"
+      },
+      {
+        "pergunta": "Em qual linguagem o React.js é principalmente escrito?",
+        "opcoes": [
+          "Java",
+          "JavaScript",
+          "Python",
+          "Ruby"
+        ],
+        "resposta": "JavaScript"
+      },
+      {
+        "pergunta": "Qual é a principal diferença entre o JavaScript e o Java?",
+        "opcoes": [
+          "JavaScript é uma linguagem de programação de servidor, enquanto Java é de cliente",
+          "JavaScript é uma linguagem de programação de alto nível, enquanto Java é de baixo nível",
+          "JavaScript é interpretado, enquanto Java é compilado",
+          "JavaScript e Java são linguagens equivalentes em funcionalidade"
+        ],
+        "resposta": "JavaScript é interpretado, enquanto Java é compilado"
+      },
+      {
+        "pergunta": "Em qual categoria o Java é mais comumente usado?",
+        "opcoes": [
+          "Desenvolvimento web",
+          "Desenvolvimento mobile",
+          "Desenvolvimento de jogos",
+          "Desenvolvimento de aplicações empresariais"
+        ],
+        "resposta": "Desenvolvimento de aplicações empresariais"
+      },
+      {
+        "pergunta": "O que é JSX no contexto do React.js?",
+        "opcoes": [
+          "Uma linguagem de marcação para criar elementos React",
+          "Um pré-processador de JavaScript",
+          "Uma extensão de linguagem para XML",
+          "Uma biblioteca para manipulação de DOM"
+        ],
+        "resposta": "Uma extensão de linguagem para XML"
+      },
+      {
+        "pergunta": "O que é Angular CLI?",
+        "opcoes": [
+          "Uma biblioteca para construir interfaces de usuário",
+          "Uma interface de linha de comando para o Angular",
+          "Um framework JavaScript para desenvolvimento web",
+          "Um pré-processador CSS"
+        ],
+        "resposta": "Uma interface de linha de comando para o Angular"
+      },
+      {
+        "pergunta": "O que é o DOM no contexto de JavaScript?",
+        "opcoes": [
+          "Data Object Model",
+          "Document Object Model",
+          "Digital Object Model",
+          "Dynamic Object Model"
+        ],
+        "resposta": "Document Object Model"
+      },
+      {
+        "pergunta": "Qual é a função do Node.js?",
+        "opcoes": [
+          "Desenvolvimento de jogos",
+          "Executar código JavaScript no servidor",
+          "Desenvolvimento mobile",
+          "Construir interfaces de usuário"
+        ],
+        "resposta": "Executar código JavaScript no servidor"
+      },
+      {
+        "pergunta": "O que é uma promessa (promise) em JavaScript?",
+        "opcoes": [
+          "Um tipo de variável",
+          "Um código JavaScript mal escrito",
+          "Um objeto que representa a conclusão ou falha de uma operação assíncrona",
+          "Uma estrutura de controle de fluxo"
+        ],
+        "resposta": "Um objeto que representa a conclusão ou falha de uma operação assíncrona"
+      },
+      {
+        "pergunta": "Qual é a principal função do Redux no desenvolvimento React.js?",
+        "opcoes": [
+          "Gerenciar o estado da aplicação",
+          "Renderizar componentes React",
+          "Facilitar a comunicação com o servidor",
+          "Manipular o DOM"
+        ],
+        "resposta": "Gerenciar o estado da aplicação"
+      },
+      {
+        "pergunta": "O que é o Java Virtual Machine (JVM)?",
+        "opcoes": [
+          "Um navegador web desenvolvido em Java",
+          "Uma máquina virtual que executa código Java",
+          "Um ambiente de desenvolvimento integrado para Java",
+          "Um framework Java para desenvolvimento mobile"
+        ],
+        "resposta": "Uma máquina virtual que executa código Java"
+      },
+      {
+        "pergunta": "O que é uma Arrow Function em JavaScript?",
+        "opcoes": [
+          "Uma função matemática específica",
+          "Uma função escrita usando a sintaxe de seta (=>)",
+          "Uma função usada para criar animações",
+          "Uma função que sempre retorna true"
+        ],
+        "resposta": "Uma função escrita usando a sintaxe de seta (=>)"
+      },
+      {
+        "pergunta": "Qual é a principal diferença entre state e props no React.js?",
+        "opcoes": [
+          "Props são usadas para dados estáticos, enquanto state para dados dinâmicos",
+          "State é usado apenas em componentes de classe, enquanto props em componentes funcionais",
+          "Props são apenas para leitura, enquanto state é mutável",
+          "Não há diferença, ambos são usados para gerenciar o estado do componente"
+        ],
+        "resposta": "Props são apenas para leitura, enquanto state é mutável"
+      },
+      {
+        "pergunta": "O que é o TypeScript?",
+        "opcoes": [
+          "Uma linguagem de programação baseada em Python",
+          "Um superset de JavaScript que adiciona tipagem estática",
+          "Um framework para desenvolvimento web",
+          "Uma ferramenta de automação de tarefas"
+        ],
+        "resposta": "Um superset de JavaScript que adiciona tipagem estática"
+      },
+      {
+        "pergunta": "O que é uma classe em Java?",
+        "opcoes": [
+          "Um método em Java",
+          "Uma instância de um objeto",
+          "Uma estrutura de controle de fluxo",
+          "Um tipo de dado primitivo"
+        ],
+        "resposta": "Uma instância de um objeto"
+      },
+      {
+        "pergunta": "O que é o AJAX?",
+        "opcoes": [
+          "Uma linguagem de programação",
+          "Uma técnica para criar interfaces de usuário responsivas",
+          "Uma abordagem para desenvolver aplicações mobile",
+          "Uma técnica assíncrona de comunicação com o servidor"
+        ],
+        "resposta": "Uma técnica assíncrona de comunicação com o servidor"
+      },
+      {
+        "pergunta": "Qual é a função do comando 'npm' no desenvolvimento Node.js?",
+        "opcoes": [
+          "Instalar pacotes de dependência",
+          "Executar aplicativos Java",
+          "Criar interfaces de usuário",
+          "Gerenciar o estado da aplicação"
+        ],
+        "resposta": "Instalar pacotes de dependência"
+      },
+      {
+        "pergunta": "O que é o JSX no contexto do React.js?",
+        "opcoes": [
+          "Uma linguagem de marcação para criar elementos React",
+          "Um pré-processador de JavaScript",
+          "Uma extensão de linguagem para XML",
+          "Uma biblioteca para manipulação de DOM"
+        ],
+        "resposta": "Uma extensão de linguagem para XML"
+      },
+      {
+        "pergunta": "Qual é o operador de igualdade estrita em JavaScript?",
+        "opcoes": [
+          "==",
+          "===",
+          "!=",
+          "!=="
+        ],
+        "resposta": "==="
+      },
+      {
+        "pergunta": "O que é o Angular?",
+        "opcoes": [
+          "Um framework de desenvolvimento web",
+          "Uma linguagem de programação",
+          "Um banco de dados relacional",
+          "Um sistema operacional"
+        ],
+        "resposta": "Um framework de desenvolvimento web"
+      },
+      {
+        "pergunta": "Qual é a finalidade do comando 'ng serve' no Angular?",
+        "opcoes": [
+          "Compilar o código Angular",
+          "Iniciar um servidor de desenvolvimento",
+          "Executar testes automatizados",
+          "Gerar uma versão de produção"
+        ],
+        "resposta": "Iniciar um servidor de desenvolvimento"
+      }
+    ]
+  }
+  

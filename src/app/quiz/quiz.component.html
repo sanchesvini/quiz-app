@@ -1,0 +1,14 @@
+<div *ngIf="!quizConcluido">
+    <h2>Pergunta {{ perguntaAtual + 1 }} de {{ quiz.length }}</h2>
+    <app-pergunta [pergunta]="quiz[perguntaAtual]" (respostaSelecionada)="onRespostaSelecionada($event)">
+    </app-pergunta>
+
+    <button (click)="verificarResposta()">Avançar</button>
+    <p>Pontuação: {{ pontuacao }}</p>
+</div>
+
+<div *ngIf="quizConcluido">
+    <h2>Quiz Concluído!</h2>
+    <p>Sua pontuação final é: {{ pontuacao }} de {{ quiz.length }}</p>
+    <button (click)="carregarQuiz()">Reiniciar</button>
+</div>

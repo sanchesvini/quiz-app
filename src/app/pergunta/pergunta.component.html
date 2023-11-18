@@ -1,0 +1,8 @@
+<div class="pergunta">
+    <p>{{ pergunta.pergunta }}</p>
+    <ul>
+        <li *ngFor="let opcao of pergunta.opcoes" (click)="selecionarResposta(opcao)">
+            {{ opcao }}
+        </li>
+    </ul>
+</div>
