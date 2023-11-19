@@ -3,7 +3,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-pergunta',
+  selector: 'pergunta',
   templateUrl: './pergunta.component.html',
   styleUrls: ['./pergunta.component.css']
 })

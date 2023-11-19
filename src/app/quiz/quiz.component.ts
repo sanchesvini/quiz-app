@@ -1,4 +1,3 @@
-// quiz.component.ts
 
 import { Component, OnInit } from '@angular/core';
 import { QuizService } from '../quiz.service';
@@ -18,6 +17,7 @@ export class QuizComponent implements OnInit {
   constructor(private quizService: QuizService) { }
 
   ngOnInit(): void {
+    console.log('QuizComponent initialized');
     this.carregarQuiz();
   }
 

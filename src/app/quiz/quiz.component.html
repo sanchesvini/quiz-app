@@ -1,7 +1,7 @@
 <div *ngIf="!quizConcluido">
     <h2>Pergunta {{ perguntaAtual + 1 }} de {{ quiz.length }}</h2>
-    <app-pergunta [pergunta]="quiz[perguntaAtual]" (respostaSelecionada)="onRespostaSelecionada($event)">
-    </app-pergunta>
+    <pergunta [pergunta]="quiz[perguntaAtual]" (respostaSelecionada)="onRespostaSelecionada($event)">
+    </pergunta>
 
     <button (click)="verificarResposta()">Avançar</button>
     <p>Pontuação: {{ pontuacao }}</p>
