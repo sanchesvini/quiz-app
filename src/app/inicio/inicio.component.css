@@ -1,0 +1,10 @@
+#inicio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#inicio .text-center {
+  margin-bottom: 2rem;
+}

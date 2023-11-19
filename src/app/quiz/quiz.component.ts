@@ -36,15 +36,26 @@ export class QuizComponent implements OnInit {
   }
 
   verificarResposta(): void {
-    if (this.respostaUsuario === this.quiz[this.perguntaAtual].resposta) {
-      this.pontuacao++;
+    const respostaCorreta = this.quiz[this.perguntaAtual].resposta;
+
+    const respostaEstaCorreta = this.respostaUsuario === respostaCorreta;
+
+
+    const opcaoSelecionadaElement = document.getElementById(this.respostaUsuario);
+    if (opcaoSelecionadaElement) {
+      opcaoSelecionadaElement.classList.add(respostaEstaCorreta ? 'opcao-correta' : 'opcao-incorreta');
     }
 
-    this.respostaUsuario = '';
-    this.perguntaAtual++;
+    setTimeout(() => {
 
-    if (this.perguntaAtual === this.quiz.length) {
-      this.quizConcluido = true;
-    }
+      this.respostaUsuario = '';
+      this.perguntaAtual++;
+
+      if (this.perguntaAtual === this.quiz.length) {
+        this.quizConcluido = true;
+      }
+    }, 1000);
   }
+
+
 }
