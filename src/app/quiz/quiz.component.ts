@@ -13,6 +13,7 @@ export class QuizComponent implements OnInit {
   perguntaAtual: number = 0;
   respostaUsuario: string = '';
   quizConcluido: boolean = false;
+  respostaCorretaStatus: string | null = null;
 
   constructor(private quizService: QuizService) { }
 
@@ -39,12 +40,7 @@ export class QuizComponent implements OnInit {
     const respostaCorreta = this.quiz[this.perguntaAtual].resposta;
 
     const respostaEstaCorreta = this.respostaUsuario === respostaCorreta;
-
-
-    const opcaoSelecionadaElement = document.getElementById(this.respostaUsuario);
-    if (opcaoSelecionadaElement) {
-      opcaoSelecionadaElement.classList.add(respostaEstaCorreta ? 'opcao-correta' : 'opcao-incorreta');
-    }
+    this.respostaCorretaStatus = this.respostaUsuario === respostaCorreta ? 'correta' : 'incorreta';
 
     setTimeout(() => {
 
@@ -54,6 +50,7 @@ export class QuizComponent implements OnInit {
       if (this.perguntaAtual === this.quiz.length) {
         this.quizConcluido = true;
       }
+      this.respostaCorretaStatus = null;
     }, 1000);
   }
 

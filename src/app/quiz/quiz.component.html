@@ -6,7 +6,11 @@
 
     <div class="card">
         <div class="card-body">
-            <pergunta [pergunta]="quiz[perguntaAtual]" (respostaSelecionada)="onRespostaSelecionada($event)"></pergunta>
+            <pergunta 
+                [pergunta]="quiz[perguntaAtual]" 
+                [respostaCorretaStatus]="respostaCorretaStatus"    
+                (respostaSelecionada)="onRespostaSelecionada($event)"
+            ></pergunta>
         </div>
     </div>
 
