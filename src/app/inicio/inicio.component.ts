@@ -8,10 +8,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent {
-  constructor(private router: Router) { }
 
+  mostrarInicio: boolean = true;
   iniciarQuiz(): void {
-    // Adicione a lógica para navegar para a tela de quiz aqui
-    this.router.navigate(['/quiz']); // '/quiz' é a rota para a tela de quiz
+    this.mostrarInicio = false;
+    const quizSection = document.getElementById('quizSection');
+    if (quizSection) {
+      window.scrollTo({ top: quizSection.offsetTop, behavior: 'smooth' });
+
+    }
   }
 }

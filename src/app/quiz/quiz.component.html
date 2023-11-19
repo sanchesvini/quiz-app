@@ -1,14 +1,28 @@
-<div *ngIf="!quizConcluido">
-    <h2>Pergunta {{ perguntaAtual + 1 }} de {{ quiz.length }}</h2>
-    <pergunta [pergunta]="quiz[perguntaAtual]" (respostaSelecionada)="onRespostaSelecionada($event)">
-    </pergunta>
+<div *ngIf="quiz && !quizConcluido" class="container mt-4">
+    <div class="d-flex">
+        <h2 class="">Quiz de programação</h2>
+        <h3 class="ml-auto">Pontuação: {{ pontuacao }}</h3>
+    </div>
 
-    <button (click)="verificarResposta()">Avançar</button>
-    <p>Pontuação: {{ pontuacao }}</p>
+    <div class="card">
+        <div class="card-body">
+            <pergunta [pergunta]="quiz[perguntaAtual]" (respostaSelecionada)="onRespostaSelecionada($event)"></pergunta>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <button class="btn btn-primary" (click)="verificarResposta()">Avançar</button>
+    </div>
+
+
 </div>
 
-<div *ngIf="quizConcluido">
-    <h2>Quiz Concluído!</h2>
-    <p>Sua pontuação final é: {{ pontuacao }} de {{ quiz.length }}</p>
-    <button (click)="carregarQuiz()">Reiniciar</button>
+<div *ngIf="quizConcluido" class="container mt-4">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title">Quiz Concluído!</h2>
+            <p class="card-text">Sua pontuação final é: {{ pontuacao }} de {{ quiz.length }}</p>
+            <button class="btn btn-success" (click)="carregarQuiz()">Reiniciar</button>
+        </div>
+    </div>
 </div>

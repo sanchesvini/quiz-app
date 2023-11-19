@@ -1,0 +1,22 @@
+.opcao-selecionada {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 0.8%;
+}
+li {
+  list-style: none;
+}
+li:hover {
+  background-color: #acd2fa;
+  cursor: pointer;
+}
+
+.opcao-correta {
+  background-color: #96f9ad;
+  color: #ffffff;
+}
+
+.opcao-incorreta {
+  background-color: #ff7381;
+  color: #ffffff;
+}
